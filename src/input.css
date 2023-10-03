@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* a {
+    @apply text-kh-teal underline font-medium hover:text-kh-ocean;
+} */
+
+.kh-section {
+    @apply bg-kh-ice max-w-screen-2xl mx-auto flex min-h-[80vh] items-center mb-28;
+}
+
+.kh-tag-exp {
+    @apply border border-kh-ocean text-kh-ocean p-1 rounded mr-2 mb-2 text-sm lg:text-base;
+}
+
+
+.kh-timeline-marker {
+    @apply relative;
+}
+
+.kh-timeline-marker:before {
+    @apply absolute rounded-full w-4 h-4 bg-kh-navy top-0;
+    content: '';
+    top: 12px;
+    left: -9px;
+}
+
+.kh-timeline-marker-cap:after {
+    @apply absolute  w-4 h-4 bg-kh-ice;
+    content: '';
+    top: -4px;
+    left: -9px;
+}
