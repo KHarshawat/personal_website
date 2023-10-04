@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* a {
-    @apply text-kh-teal underline font-medium hover:text-kh-ocean;
-} */
+
+li::marker {
+    @apply pl-10
+}
+strong {
+    @apply font-bold;
+}
 
 .kh-section {
     @apply bg-kh-ice max-w-screen-2xl mx-auto flex min-h-[80vh] items-center mb-28;
