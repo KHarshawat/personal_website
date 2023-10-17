@@ -36,3 +36,20 @@ strong {
     top: -4px;
     left: -9px;
 }
+
+.kh-cs {
+    @apply w-full h-full bg-green-500;
+    content:'';
+    top: 0;
+    left: 0;
+}
+
+
+/* Project Link, Project Title */
+.kh-pl:hover > div > img {
+    @apply opacity-95 shadow-lg;
+}
+
+.kh-pl:hover > .kh-pt {
+    @apply opacity-75;
+}
