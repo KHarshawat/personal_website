@@ -584,6 +584,10 @@ video {
   margin-left: 2rem;
 }
 
+.mr-0 {
+  margin-right: 0px;
+}
+
 .mr-12 {
   margin-right: 3rem;
 }
@@ -1066,8 +1070,16 @@ strong {
     margin-bottom: 1.5rem;
   }
 
+  .lg\:mr-12 {
+    margin-right: 3rem;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:flex-initial {
+    flex: 0 1 auto;
   }
 
   .lg\:grid-cols-2 {
@@ -1109,6 +1121,10 @@ strong {
 
   .lg\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
