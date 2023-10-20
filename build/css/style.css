@@ -760,8 +760,8 @@ video {
   padding-bottom: 1rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .pl-24 {
@@ -782,10 +782,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -908,6 +904,36 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.kh-fl {
+  position: relative;
+  --tw-text-opacity: 1;
+  color: rgb(0 43 91 / var(--tw-text-opacity));
+  text-decoration-line: none;
+}
+
+.kh-fl:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 43 91 / var(--tw-text-opacity));
+}
+
+.kh-fl::before {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: block;
+  height: 3px;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 152 149 / var(--tw-bg-opacity));
+  content: "";
+  transform: scaleX(0);
+  transition: transform 0.1s ease-in-out;
+}
+
+.kh-fl:hover::before {
+  transform: scaleX(1);
+}
+
 li::marker {
   padding-left: 2.5rem;
 }
@@ -975,26 +1001,6 @@ strong {
   top: -4px;
   left: -9px;
 }
-
-.kh-cs {
-  height: 100%;
-  width: 100%;
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-  content:'';
-  top: 0;
-  left: 0;
-}
-
-/* Project Link, Project Title */
-
-/* .kh-pl:hover > div > img {
-    @apply  shadow-none transition-shadow ease-in-out duration-300;
-}
-
-.kh-pl:hover > .kh-btn {
-     @apply bg-[#103A4A]  ;
-} */
 
 .kh-btn {
   margin-bottom: 2rem;
