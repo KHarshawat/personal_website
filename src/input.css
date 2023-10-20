@@ -12,11 +12,10 @@
 }
 
 .kh-fl::before {
-
     @apply absolute block w-full h-[3px] bottom-0 left-0 bg-kh-teal;
     content: "";
-  transform: scaleX(0);
-  transition: transform 0.1s ease-in-out;
+    transform: scaleX(0);
+    transition: transform 0.1s ease-in-out;
 } 
 
 .kh-fl:hover::before {
