@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kavi Harshawat - Deep Dive Into Appeals Modernization</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/assistant" rel="stylesheet" />
+  </head>
+
+  <header>
+    <nav class="bg-kh-ocean">
+      <div class="max-w-8xl mx-auto flex pt-12 lg:pt-20 items-center px-12">
+        <a class="flex-initial text-kh-navy text-2xl" href="index.html">
+          <img src="img/kh-logo-h.svg" alt="H logo" />
+        </a>
+        <div class="flex-1"></div>
+        <div class="flex-initial flex">
+          <a
+            href="index.html"
+            class="text-white no-underline hover:opacity-100 cursor-pointer transition-opacity duration-200 ease-in-out text-lg lg:text-2xl opacity-50 mr-12"
+            >Work</a
+          >
+          <a
+            href="about.html"
+            class="text-white no-underline hover:opacity-100 cursor-pointer transition-opacity duration-200 ease-in-out text-lg lg:text-2xl opacity-50 mr-4"
+            >About</a
+          >
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body class="min-h-screen bg-kh-ice">
+    <section class="bg-kh-ocean py-20 text-center">
+      <div class="pt-4 lg:pt-8 max-w-8xl mx-auto px-12">
+        <div class="mb-8 lg:mb-12">
+          <h1
+            class="text-3xl lg:text-5xl text-white leading-normal font-bold mb-4"
+          >
+            Uno Health Member Portal
+          </h1>
+          <span class="text-kh-teal-bright text-xl">Case study</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-32 pb-20 max-w-6xl mx-auto px-12 flex items-center">
+      <div class="flex-1">
+        <h2
+          class="text-xl lg:text-3xl text-kh-navy leading-normal font-bold mb-4 lg:mb-8"
+        >
+          Problem
+        </h2>
+        <p
+          class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+        >
+          Uno Health enrolls partners with Medicare Advantage providers to help
+          them re-certify their Medicare members in all state and federal
+          programs they might be eligible for - putting thousands of dollars in
+          their pockets.
+        </p>
+        <p
+          class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+        >
+          Uno wanted to create their first member-facing portal to help plan
+          members upload supporting evidence for their applications to programs
+          like SNAP, Medicaid, Lifeline, and more.
+        </p>
+        <p
+          class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+        >
+          Uno hired me for a two-week sprint to help Uno Health design and test
+          an MVP for their member portal.
+        </p>
+      </div>
+
+      <div class="flex-1 max-w-sm pl-32">
+        <img
+          src="img/uno/unohealth-logo.png"
+          alt="Uno Health Logo"
+          class="inline-block align-middle"
+        />
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12 pb-20">
+      <img
+        src="img/uno/process.png"
+        alt="Uno Health Process Overview"
+        class="inline-block align-middle shadow-md"
+      />
+      <p class="text-sm text-kh-ocean mb-8 italic text-center mt-4">
+        My process in developing the member portal MVP
+      </p>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-12 pb-20">
+      <h2
+        class="text-xl lg:text-3xl text-kh-navy leading-normal font-bold mb-4 lg:mb-8"
+      >
+        Discovery
+      </h2>
+      <p
+        class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+      >
+        During the first week, I conducted internal interviews with Uno team
+        members to learn what needs the portal was meant to solve, the most
+        significant pain points facing members, and the constraints we needed to
+        work with. I also looked at the existing materials shared with members
+        to help them enroll by paper mail.
+      </p>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12 pb-20">
+      <img
+        src="img/uno/ia.png"
+        alt="Uno Health application information architecture"
+        class="inline-block align-middle shadow-md"
+      />
+
+      <p class="text-sm text-kh-ocean mb-8 italic text-center mt-4">
+        Aapplication information architecture
+      </p>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-12 pb-20">
+      <h2
+        class="text-xl lg:text-3xl text-kh-navy leading-normal font-bold mb-4 lg:mb-8"
+      >
+        Design
+      </h2>
+      <p
+        class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+      >
+        After gaining an understanding of the existing process and context of
+        the product, I began by sketching wireframes and defining the
+        information architecture of the application. I continued to revise them
+        with input from PMs, engineers, and compliance officers from the
+        company. I created high-fidelity mockups to map out the user flow and
+        built several prototypes to test out different mental models.
+      </p>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12 pb-20">
+      <img
+        src="img/uno/navigation.png"
+        alt="Screenshots demonstrating the main navigation of the application"
+        class="inline-block align-middle"
+      />
+      <p class="text-sm text-kh-ocean mb-8 italic text-center mt-8">
+        Screenshots demonstrating the main navigation of the application
+      </p>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12 pb-20">
+      <div class="grid grid-cols-6 gap-4 items-center pb-20">
+        <div class="col-span-3">
+          <img
+            src="img/uno/signup.png"
+            alt="Screenshots of the sign-up process"
+            class="inline-block align-middle"
+          />
+        </div>
+        <div class="col-span-3 pl-12">
+          <h3 class="text-kh-navy text-xl font-semibold leading-relaxed mb-6">
+            Lowering friction during sign-up
+          </h3>
+          <p class="text-kh-navy text-xl font-light leading-relaxed">
+            One focus area was making sure that members could easily sign up for
+            the app itself. Through research, we found that members had trouble
+            creating online accounts and remembering their passwords so I worked
+            with engineers to develop a “magic-link” sign up flow.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-6 gap-4 items-center pb-20">
+        <div class="col-span-3 pr-12">
+          <h3 class="text-kh-navy text-xl font-semibold leading-relaxed mb-6">
+            Working with PHI
+          </h3>
+          <p class="text-kh-navy text-xl font-light leading-relaxed">
+            The web-app needed provide and collect sensitive information about
+            member’s finances, health, and more. This was Protected Health
+            Information so we had the extra constraint of confirming members’
+            identities before they could start using the product.
+          </p>
+        </div>
+
+        <div class="col-span-3">
+          <img
+            src="img/uno/verification.png"
+            alt="Screenshots of the sign-up process"
+            class="inline-block align-middle"
+          />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-6 gap-4 items-center pb-20">
+        <div class="col-span-3">
+          <img
+            src="img/uno/cta.png"
+            alt="Screenshots of calls to action"
+            class="inline-block align-middle"
+          />
+        </div>
+        <div class="col-span-3 pl-12">
+          <h3 class="text-kh-navy text-xl font-semibold leading-relaxed mb-6">
+            Providing a strong call to action
+          </h3>
+          <p class="text-kh-navy text-xl font-light leading-relaxed">
+            The homepage features action cards that serve as clear calls to
+            action for members when they use the app. I wanted to ensure that
+            the design had room to scale as the team at Uno added additional
+            functionality – the team could add additional cards with new
+            features over time.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-6 gap-4 items-center pb-20">
+        <div class="col-span-3 pr-12">
+          <h3 class="text-kh-navy text-xl font-semibold leading-relaxed mb-6">
+            Helping members upload documents
+          </h3>
+          <p class="text-kh-navy text-xl font-light leading-relaxed">
+            The focus of the MVP was to allow members upload documents via the
+            web-app. These documents helped Uno apply for benefits on the
+            members’ behalf. Since a single member needed to upload numerous
+            documents, I designed a checklist interface to help them keep track
+            of what they had and hadn’t uploaded.
+          </p>
+        </div>
+        <div class="col-span-3 text-center">
+          <img
+            src="img/uno/upload.gif"
+            alt="GIF that shows the uploading a document"
+            class="inline-block align-middle max-h-[75vh]"
+          />
+        </div>
+      </div>
+
+      <div class="items-center">
+        <div class="text-center max-w-xl mx-auto mb-12">
+          <h3 class="text-kh-navy text-xl font-semibold leading-relaxed mb-6">
+            Responsive design
+          </h3>
+          <p class="text-kh-navy text-xl font-light leading-relaxed">
+            While I took a mobile-first approach in my designs I also ensured
+            that my designs were responsive and provided examples of what the
+            portal would look like on a desktop browser.
+          </p>
+        </div>
+        <div class="text-center">
+          <img
+            src="img/uno/desktop.png"
+            alt="GIF that shows the uploading a document"
+            class="inline-block align-middle"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12 pb-20">
+      <div class="max-w-4xl mx-auto px-12">
+        <h2
+          class="text-xl lg:text-3xl text-kh-navy leading-normal font-bold mb-4 lg:mb-8"
+        >
+          Feedback
+        </h2>
+        <p
+          class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+        >
+          I tested my designs with remote research participants I recruited
+          using
+          <a
+            href="https://www.userinterviews.com/"
+            class="font-semibold underline hover:opacity-60"
+            >User Interviews</a
+          >
+          and helped other team members test out the sign-up and onboarding
+          flows with existing Uno Health members. Based on that feedback, I made
+          multiple iterations on the product before preparing it for handoff to
+          the team.
+        </p>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12">
+      <div class="text-center pb-20">
+        <img
+          src="img/uno/flow.png"
+          alt="High fidelity user flow"
+          class="inline-block align-middle"
+        />
+      </div>
+
+      <div class="max-w-4xl mx-auto px-12 pb-20">
+        <h2
+          class="text-xl lg:text-3xl text-kh-navy leading-normal font-bold mb-4 lg:mb-8"
+        >
+          Deliverables
+        </h2>
+        <p
+          class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+        >
+          At the end of the sprint, I handed over tested designs for the MVP,
+          examples of how the product would translate on desktop, detailed
+          interaction specs, instructions for edge cases, and ideas for future
+          development.
+        </p>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-12">
+      <div class="max-w-4xl mx-auto px-12 pb-20">
+        <h2
+          class="text-xl lg:text-3xl text-kh-navy leading-normal font-bold mb-4 lg:mb-8"
+        >
+          Outcome
+        </h2>
+        <p
+          class="text-kh-navy text-xl font-light leading-relaxed lg:leading-relaxed mb-8"
+        >
+          The MVP I designed has received positive feedback from stakeholders
+          and members and the team at Uno Health is investing more effort into
+          it’s development.
+        </p>
+      </div>
+    </section>
+
+    <div class="border-t border-kh-navy max-w-8xl mx-auto"></div>
+  </body>
+  <footer>
+    <div class="max-w-8xl mx-auto text-base lg:text-xl py-16 px-12 flex">
+      <a
+        class="kh-fl font-semibold flex-1 lg:flex-initial mr-0 text-center lg:text-left lg:mr-12 text-kh-navy pb-4 lg:pb-0"
+        href="https://www.instagram.com/kavih/"
+        >Instagram</a
+      >
+      <a
+        class="kh-fl font-semibold flex-1 lg:flex-initial mr-0 text-center lg:text-left lg:mr-12 text-kh-navy pb-4 lg:pb-0"
+        href="https://www.linkedin.com/in/kavih/"
+        >LinkedIn</a
+      >
+      <a
+        class="kh-fl font-semibold flex-1 lg:flex-initial mr-0 text-center lg:text-left lg:mr-12 text-kh-navy pb-4 lg:pb-0"
+        href="mailto:kharshawat@gmail.com"
+        >Email</a
+      >
+      <a
+        class="kh-fl font-semibold flex-1 lg:flex-initial mr-0 text-center lg:text-left lg:mr-12 text-kh-navy pb-4 lg:pb-0"
+        href="/build/assets/Kavi Harshawat Resume Oct 2023.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Resume</a
+      >
+    </div>
+  </footer>
+</html>

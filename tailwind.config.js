@@ -15,6 +15,7 @@ module.exports = {
         'kh-teal': '#159895',
         'kh-teal-bright': '#30E3DE',
         'kh-ice': '#DDE6ED',
+        'kh-ice-dark': "#BCD3E4",
       },
       screens: {
         '3xl': '1600px',
